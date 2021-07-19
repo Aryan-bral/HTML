@@ -1,0 +1,43 @@
+p,em{
+    color: rgb(139, 61, 119);
+}
+li{
+    list-style-type: square;
+}
+
+p.special{
+    color: orangered;
+}
+li.special{
+    color: royalblue;
+    font-size: large;
+    font-weight: bold;
+}
+li em{
+    color: yellow;
+    font-weight: bold;
+    align-items: center;
+}
+p+em{
+    color: tomato;
+    font-size: x-large;
+}
+a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+body{
+    background-color: springgreen;
+}
+h2,h3#ppl{
+    color: crimson;
+    background-color: black;
+}
+li[class]{
+    color: darkviolet;
+}
+li[class="a"]{
+    font-size: 300%;
+}
+
